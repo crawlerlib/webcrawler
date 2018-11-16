@@ -1,0 +1,15 @@
+{
+    "name": "ip518bb-quizgenerator/dom-text-crawler",
+    "description": "Crawls a given website (f.e. www.laeufelfingen.com) and extracts all its text",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Crawler\\": "src/Crawler"
+        }
+    },
+    "require": {
+        "symfony/console": "^4.1@dev",
+        "spatie/crawler": "^4.0"
+    }
+}
